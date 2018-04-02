@@ -3166,3 +3166,11 @@ h1.t-button {
     font-size: 13px;
 }
 }
+
+.carousel-inner{
+  height: 300px;
+  background-image: image/noimg.jpg
+}
+.abc{
+  text-align: right;
+}
