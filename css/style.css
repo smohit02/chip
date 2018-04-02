@@ -465,6 +465,9 @@ span.fa.fa-shopping-cart.my-cart-icon {
     background-color: #FAB005;
     border-radius: 10px;
 }
+.my-cart-icon:hover {
+  background-color: #FAB005;
+}
 
 .multi1 {
     top: 98%;
