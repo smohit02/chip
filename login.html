@@ -62,39 +62,58 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 			});
 		});
 		</script>
+		<style>
+body {margin:0;}
+
+.icon-bar {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+}
+
+.icon-bar a {
+    float: left;
+    width: 20%;
+    text-align: center;
+    padding: 12px 0;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 36px;
+}
+
+.icon-bar a:hover {
+    background-color: #000;
+}
+
+.active {
+    background-color: #4CAF50 !important;
+}
+</style>
+
 <!---//End-rate---->
 
 </head>
 <body>
-<a href="offer.html"><img src="images/download.png" class="img-head" alt=""></a>
+
+
+<div class="navbar navbar-fixed-bottom">
+	<div class="icon-bar">
+		<a class="active" href="#"><i class="fa fa-home"></i></a>
+		<a href="#"><i class="fa fa-search"></i></a> 
+		<a href="#"><i class="fa fa-user"></i></a> 
+		<span class="my-cart-icon" ><a href="#" ><i class="fa fa-shopping-cart my-cart-icon"></i></a></span> 
+		<a href="#"><i class="fa fa-credit-card"></i></a> 
+	</div>
+</div>	
 <div class="header">
 
 		<div class="container">
 			
 			<div class="logo">
-				<h1 ><a href="index.html"><b>T<br>H<br>E</b>Big Store<span>The Best Supermarket</span></a></h1>
-			</div>
-			<div class="head-t">
-				<ul class="card">
-					<li><a href="wishlist.html" ><i class="fa fa-heart" aria-hidden="true"></i>Wishlist</a></li>
-					<li><a href="login.html" ><i class="fa fa-user" aria-hidden="true"></i>Login</a></li>
-					<li><a href="register.html" ><i class="fa fa-arrow-right" aria-hidden="true"></i>Register</a></li>
-					<li><a href="about.html" ><i class="fa fa-file-text-o" aria-hidden="true"></i>Order History</a></li>
-					<li><a href="shipping.html" ><i class="fa fa-ship" aria-hidden="true"></i>Shipping</a></li>
-				</ul>	
+				<h1 ><a href="index.html">CHIPAY<span>SRM Shit 	Foods</span></a></h1>
 			</div>
 			
-			<div class="header-ri">
-				<ul class="social-top">
-					<li><a href="#" class="icon facebook"><i class="fa fa-facebook" aria-hidden="true"></i><span></span></a></li>
-					<li><a href="#" class="icon twitter"><i class="fa fa-twitter" aria-hidden="true"></i><span></span></a></li>
-					<li><a href="#" class="icon pinterest"><i class="fa fa-pinterest-p" aria-hidden="true"></i><span></span></a></li>
-					<li><a href="#" class="icon dribbble"><i class="fa fa-dribbble" aria-hidden="true"></i><span></span></a></li>
-				</ul>	
-			</div>
-		
-
-				<div class="nav-top">
+				<!-- <div class="nav-top">
 					<nav class="navbar navbar-default">
 					
 					<div class="navbar-header nav_2">
@@ -251,7 +270,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 						<span class="fa fa-shopping-cart my-cart-icon"><span class="badge badge-notify my-cart-badge"></span></span>
 					</div>
 					<div class="clearfix"></div>
-				</div>
+				</div> -->
 					
 				</div>			
 </div>
@@ -293,7 +312,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 			</div>
 		</div>
 <!--footer-->
-<div class="footer">
+<!-- <div class="footer">
 	<div class="container">
 		<div class="col-md-3 footer-grid">
 			<h3>About Us</h3>
@@ -360,10 +379,13 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 			<p> &copy; 2016 Big store. All Rights Reserved | Design by  <a href="http://w3layouts.com/"> W3layouts</a></p>
 		</div>
 	</div>
-</div>
+</div> -->
 <!-- //footer-->
+
+<!--navbar-->
+
 <!-- smooth scrolling -->
-	<script type="text/javascript">
+<!-- 	<script type="text/javascript">
 		$(document).ready(function() {
 		/*
 			var defaults = {
@@ -375,8 +397,8 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 		*/								
 		$().UItoTop({ easingType: 'easeOutQuart' });
 		});
-	</script>
-	<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+	</script> -->
+	
 <!-- //smooth scrolling -->
 <!-- for bootstrap working -->
 		<script src="js/bootstrap.js"></script>
