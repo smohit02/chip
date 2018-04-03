@@ -62,11 +62,57 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 			});
 		});
 		</script>
+
 <!---//End-rate---->
+<!-- navbar -->
+<style>
+body {margin:0;}
+
+.icon-bar {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+}
+
+.icon-bar a {
+    float: left;
+    width: 20%;
+    text-align: center;
+    padding: 12px 0;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 36px;
+}
+
+.icon-bar a:hover {
+    background-color: #000;
+}
+
+.active {
+    background-color: #4CAF50 !important;
+}
+</style>
+<!--navbar ends-->
+
+
 
 </head>
 <body>
 <div class="header">
+	<!--navbar-->
+
+<div class="navbar navbar-fixed-bottom">
+ <div class="icon-bar">
+  <a class="active" href="index.html"><i class="fa fa-home"></i></a> 
+  <a href="#"><i class="fa fa-search"></i></a> 
+  <a href="#"><i class="fa fa-user"></i></a> 
+  <span class="my-cart-icon" ><a href="#" ><i class="fa fa-shopping-cart my-cart-icon"></i></a></span> 
+  <a href="#"><i class="fa fa-credit-card"></i></a> 
+ </div>
+</div>
+
+<!--navbar ends-->
+
 
 		<div class="container">
 			
