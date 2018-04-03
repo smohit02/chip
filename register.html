@@ -103,11 +103,14 @@ body {margin:0;}
 
 <div class="navbar navbar-fixed-bottom">
  <div class="icon-bar">
-  <a class="active" href="index.html"><i class="fa fa-home"></i></a> 
-  <a href="#"><i class="fa fa-search"></i></a> 
-  <a href="#"><i class="fa fa-user"></i></a> 
-  <span class="my-cart-icon" ><a href="#" ><i class="fa fa-shopping-cart my-cart-icon"></i></a></span> 
+  <a  href="index.html"><i class="fa fa-home"></i></a> 
+  <!-- <a href="#"><i class="fa fa-search"></i></a>  -->
+  <a href="profile.html"><i class="fa fa-user"></i></a> 
+  <a href="#"><i class="fa fa-book"></i></a>
+  <!-- <span class="my-cart-icon" > -->
+  	<!-- </span>  -->
   <a href="#"><i class="fa fa-credit-card"></i></a> 
+  <a href="#" ><i class="fa fa-shopping-cart my-cart-icon"></i></a>
  </div>
 </div>
 
@@ -437,8 +440,7 @@ body {margin:0;}
   $(function () {
 
     var goToCartIcon = function($addTocartBtn){
-      var $cartIcon = $(".my-cart-icon");
-      var $image = $('<img width="30px" height="30px" src="' + $addTocartBtn.data("image") + '"/>').css({"position": "fixed", "z-index": "999"});
+.      var $image = $('<img width="30px" height="30px" src="' + $addTocartBtn.data("image") + '"/>').css({"position": "fixed", "z-index": "999"});
       $addTocartBtn.prepend($image);
       var position = $cartIcon.position();
       $image.animate({
