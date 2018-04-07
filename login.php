@@ -1,13 +1,35 @@
-<!--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
-<!DOCTYPE html>
+<?php
+session_start();
+
+if(isset($_SESSION['usr_id'])!="") {
+	header("Location: index.php");
+}
+
+include_once 'dbconnect.php';
+
+//check if form is submitted
+if (isset($_POST['login'])) {
+
+	$email = mysqli_real_escape_string($con, $_POST['Email']);
+	$password = mysqli_real_escape_string($con, $_POST['Password']);
+	$result = mysqli_query($con, "SELECT * FROM users WHERE email = '" . $email. "' and password = '" . md5($password) . "'");
+
+	if ($row = mysqli_fetch_array($result)) {
+		$_SESSION['usr_id'] = $row['id'];
+		$_SESSION['usr_name'] = $row['name'];
+// header("Location: index.php");
+                header("Location: home.php");
+	} else {
+		$errormsg = "Incorrect Email or Password!!!";
+	}
+}
+?>
+
+
+
 <html>
 <head>
-<title>Big store a Ecommerce Online Shopping Category Flat Bootstrap Responsive Website Template | Register :: w3layouts</title>
+<title>Chipay</title>
 <!-- for-mobile-apps -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -62,10 +84,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 			});
 		});
 		</script>
-
-<!---//End-rate---->
-<!-- navbar -->
-<style>
+		<style>
 body {margin:0;}
 
 .icon-bar {
@@ -92,56 +111,21 @@ body {margin:0;}
     background-color: #4CAF50 !important;
 }
 </style>
-<!--navbar ends-->
 
-
+<!---//End-rate---->
 
 </head>
 <body>
-	<!--navbar-->
-
-<!-- <div class="navbar navbar-fixed-bottom">
- <div class="icon-bar">
-  <a  href="index.html"><i class="fa fa-home"></i></a> 
-  <!-- <a href="#"><i class="fa fa-search"></i></a>  -
-  <a href="profile.html"><i class="fa fa-user"></i></a> 
-  <a href="#"><i class="fa fa-book"></i></a>
-  <!-- <span class="my-cart-icon" > 
-  	<!-- </span>  -
-  <a href="#"><i class="fa fa-credit-card"></i></a> 
-  <a href="#" ><i class="fa fa-shopping-cart my-cart-icon"></i></a>
- </div>
-</div>
-
-<!--navbar ends-->
-
 
 <div class="header">
-	<div class="container">
-		<div class="logo">
-			<h1 ><a href="index.html">CHIPAY<span>SRM Shit 	Foods</span></a></h1>
-		</div>
-			<!-- <div class="head-t">
-				<ul class="card">
-					<li><a href="wishlist.html" ><i class="fa fa-heart" aria-hidden="true"></i>Wishlist</a></li>
-					<li><a href="login.html" ><i class="fa fa-user" aria-hidden="true"></i>Login</a></li>
-					<li><a href="register.html" ><i class="fa fa-arrow-right" aria-hidden="true"></i>Register</a></li>
-					<li><a href="about.html" ><i class="fa fa-file-text-o" aria-hidden="true"></i>Order History</a></li>
-					<li><a href="shipping.html" ><i class="fa fa-ship" aria-hidden="true"></i>Shipping</a></li>
-				</ul>		
+
+		<div class="container">
+			
+			<div class="logo">
+				<h1 ><a href="index.html">CHIPAY<span>SRM Shit 	Foods</span></a></h1>
 			</div>
 			
-			<div class="header-ri">
-				<ul class="social-top">
-					<li><a href="#" class="icon facebook"><i class="fa fa-facebook" aria-hidden="true"></i><span></span></a></li>
-					<li><a href="#" class="icon twitter"><i class="fa fa-twitter" aria-hidden="true"></i><span></span></a></li>
-					<li><a href="#" class="icon pinterest"><i class="fa fa-pinterest-p" aria-hidden="true"></i><span></span></a></li>
-					<li><a href="#" class="icon dribbble"><i class="fa fa-dribbble" aria-hidden="true"></i><span></span></a></li>
-				</ul>	
-			</div>
-		
-
-				<div class="nav-top">
+				<!-- <div class="nav-top">
 					<nav class="navbar navbar-default">
 					
 					<div class="navbar-header nav_2">
@@ -303,28 +287,22 @@ body {margin:0;}
 				</div>			
 </div>
   <!---->
-
-     <!--banner-->
+ <!--banner-->
 <div class="banner-top">
 	<div class="container">
-		<h3 >Register</h3>
-		<h4><a href="index.html">Home</a><label>/</label>Register</h4>
+		<h3 >Login</h3>
+		<h4><a href="index.html">Home</a><label>/</label>Login</h4>
 		<div class="clearfix"> </div>
 	</div>
 </div>
-
 <!--login-->
 
 	<div class="login">
+	
 		<div class="main-agileits">
-				<div class="form-w3agile form1">
-					<h3>Register</h3>
+				<div class="form-w3agile">
+					<h3>Login</h3>
 					<form action="#" method="post">
-						<div class="key">
-							<i class="fa fa-user" aria-hidden="true"></i>
-							<input  type="text" value="Username" name="Username" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Username';}" required="">
-							<div class="clearfix"></div>
-						</div>
 						<div class="key">
 							<i class="fa fa-envelope" aria-hidden="true"></i>
 							<input  type="text" value="Email" name="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" required="">
@@ -335,19 +313,18 @@ body {margin:0;}
 							<input  type="password" value="Password" name="Password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Password';}" required="">
 							<div class="clearfix"></div>
 						</div>
-						<div class="key">
-							<i class="fa fa-lock" aria-hidden="true"></i>
-							<input  type="password" value="Confirm Password" name="Confirm Password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Confirm Password';}" required="">
-							<div class="clearfix"></div>
-						</div>
-						<input type="submit" value="Submit">
+						<input type="submit" value="Login">
 					</form>
 				</div>
-				
+				<div class="forg">
+					<a href="#" class="forg-left">Forgot Password</a>
+					<a href="register.html" class="forg-right">Register</a>
+				<div class="clearfix"></div>
+				</div>
 			</div>
 		</div>
-<!--footer--><!-- 
-<div class="footer">
+<!--footer-->
+<!-- <div class="footer">
 	<div class="container">
 		<div class="col-md-3 footer-grid">
 			<h3>About Us</h3>
@@ -414,9 +391,13 @@ body {margin:0;}
 			<p> &copy; 2016 Big store. All Rights Reserved | Design by  <a href="http://w3layouts.com/"> W3layouts</a></p>
 		</div>
 	</div>
-</div
+</div> -->
+<!-- //footer-->
+
+<!--navbar-->
+
 <!-- smooth scrolling -->
-	<script type="text/javascript">
+<!-- 	<script type="text/javascript">
 		$(document).ready(function() {
 		/*
 			var defaults = {
@@ -428,8 +409,8 @@ body {margin:0;}
 		*/								
 		$().UItoTop({ easingType: 'easeOutQuart' });
 		});
-	</script>
-	<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+	</script> -->
+	
 <!-- //smooth scrolling -->
 <!-- for bootstrap working -->
 		<script src="js/bootstrap.js"></script>
@@ -439,7 +420,8 @@ body {margin:0;}
   $(function () {
 
     var goToCartIcon = function($addTocartBtn){
-.      var $image = $('<img width="30px" height="30px" src="' + $addTocartBtn.data("image") + '"/>').css({"position": "fixed", "z-index": "999"});
+      var $cartIcon = $(".my-cart-icon");
+      var $image = $('<img width="30px" height="30px" src="' + $addTocartBtn.data("image") + '"/>').css({"position": "fixed", "z-index": "999"});
       $addTocartBtn.prepend($image);
       var position = $cartIcon.position();
       $image.animate({

@@ -1,13 +1,6 @@
-<!--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
-<!DOCTYPE html>
 <html>
 <head>
-<title>Big store a Ecommerce Online Shopping Category Flat Bootstrap Responsive Website Template | Login :: w3layouts</title>
+<title>Big store a Ecommerce Online Shopping Category Flat Bootstrap Responsive Website Template | Terms And Conditions :: w3layouts</title>
 <!-- for-mobile-apps -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -62,48 +55,39 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 			});
 		});
 		</script>
-		<style>
-body {margin:0;}
-
-.icon-bar {
-    width: 100%;
-    background-color: #555;
-    overflow: auto;
-}
-
-.icon-bar a {
-    float: left;
-    width: 20%;
-    text-align: center;
-    padding: 12px 0;
-    transition: all 0.3s ease;
-    color: white;
-    font-size: 36px;
-}
-
-.icon-bar a:hover {
-    background-color: #000;
-}
-
-.active {
-    background-color: #4CAF50 !important;
-}
-</style>
-
 <!---//End-rate---->
 
 </head>
 <body>
-
+<a href="offer.html"><img src="images/download.png" class="img-head" alt=""></a>
 <div class="header">
 
 		<div class="container">
 			
 			<div class="logo">
-				<h1 ><a href="index.html">CHIPAY<span>SRM Shit 	Foods</span></a></h1>
+				<h1 ><a href="index.html"><b>T<br>H<br>E</b>Big Store<span>The Best Supermarket</span></a></h1>
+			</div>
+			<div class="head-t">
+				<ul class="card">
+					<li><a href="wishlist.html" ><i class="fa fa-heart" aria-hidden="true"></i>Wishlist</a></li>
+					<li><a href="login.html" ><i class="fa fa-user" aria-hidden="true"></i>Login</a></li>
+					<li><a href="register.html" ><i class="fa fa-arrow-right" aria-hidden="true"></i>Register</a></li>
+					<li><a href="about.html" ><i class="fa fa-file-text-o" aria-hidden="true"></i>Order History</a></li>
+					<li><a href="shipping.html" ><i class="fa fa-ship" aria-hidden="true"></i>Shipping</a></li>
+				</ul>	
 			</div>
 			
-				<!-- <div class="nav-top">
+			<div class="header-ri">
+				<ul class="social-top">
+					<li><a href="#" class="icon facebook"><i class="fa fa-facebook" aria-hidden="true"></i><span></span></a></li>
+					<li><a href="#" class="icon twitter"><i class="fa fa-twitter" aria-hidden="true"></i><span></span></a></li>
+					<li><a href="#" class="icon pinterest"><i class="fa fa-pinterest-p" aria-hidden="true"></i><span></span></a></li>
+					<li><a href="#" class="icon dribbble"><i class="fa fa-dribbble" aria-hidden="true"></i><span></span></a></li>
+				</ul>	
+			</div>
+		
+
+				<div class="nav-top">
 					<nav class="navbar navbar-default">
 					
 					<div class="navbar-header nav_2">
@@ -260,49 +244,76 @@ body {margin:0;}
 						<span class="fa fa-shopping-cart my-cart-icon"><span class="badge badge-notify my-cart-badge"></span></span>
 					</div>
 					<div class="clearfix"></div>
-				</div> -->
+				</div>
 					
 				</div>			
 </div>
   <!---->
- <!--banner-->
+
+   <!--banner-->
 <div class="banner-top">
 	<div class="container">
-		<h3 >Login</h3>
-		<h4><a href="index.html">Home</a><label>/</label>Login</h4>
+		<h3 >Terms</h3>
+		<h4><a href="index.html">Home</a><label>/</label>Terms</h4>
 		<div class="clearfix"> </div>
 	</div>
 </div>
-<!--login-->
 
-	<div class="login">
-	
-		<div class="main-agileits">
-				<div class="form-w3agile">
-					<h3>Login</h3>
-					<form action="#" method="post">
-						<div class="key">
-							<i class="fa fa-envelope" aria-hidden="true"></i>
-							<input  type="text" value="Email" name="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" required="">
-							<div class="clearfix"></div>
-						</div>
-						<div class="key">
-							<i class="fa fa-lock" aria-hidden="true"></i>
-							<input  type="password" value="Password" name="Password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Password';}" required="">
-							<div class="clearfix"></div>
-						</div>
-						<input type="submit" value="Login">
-					</form>
-				</div>
-				<div class="forg">
-					<a href="#" class="forg-left">Forgot Password</a>
-					<a href="register.html" class="forg-right">Register</a>
-				<div class="clearfix"></div>
+<!--- terms ---->
+			<div class="terms">
+				<div class="container">
+					
+					<div class="spec ">
+					<h3>Terms and Conditions</h3>
+				<div class="ser-t">
+					<b></b>
+					<span><i></i></span>
+					<b class="line"></b>
 				</div>
 			</div>
-		</div>
+					<div class="ter-wthree">
+						<h6><span>1.</span>Important Points</h6>
+						<ol start="1">
+							<li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.it has a more-or-less normal distribution of letters, as opposed  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</li>
+							<li>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores</li>
+							<li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.it has a more-or-less normal distribution of letters, as opposed  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</li>
+						</ol>
+					</div>
+					<div class="ter-wthree">
+						<h6><span>2.</span>Exclusions and Limitations</h6>
+						<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+						<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. </p>
+						<p> Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance</p>
+					</div>
+					<div class="ter-wthree">
+						<h6><span>3.</span>Payment</h6>
+						<p>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary</p>
+						<p>first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour</p>
+					</div>
+					<div class="ter-wthree">
+						<h6> <span>4.</span>Cancellation Policy</h6>
+						<p>Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+						<p>Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum"</p>
+						<p>This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+					</div>
+					<div class="ter-wthree">
+						<h6><span>5.</span>Modifications & Refunds</h6>
+						<p> Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+						<p> Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+					</div>
+					<div class="ter-wthree">
+						<h6><span>6.</span>Availability</h6>
+						<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.</p>
+					</div>
+					<div class="ter-wthree">
+						<h6><span>7.</span>Copyright Notice</h6>
+						<p> you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures</p>
+					</div>
+				</div>
+			</div>
+			<!--- /terms ---->
 <!--footer-->
-<!-- <div class="footer">
+<div class="footer">
 	<div class="container">
 		<div class="col-md-3 footer-grid">
 			<h3>About Us</h3>
@@ -369,13 +380,10 @@ body {margin:0;}
 			<p> &copy; 2016 Big store. All Rights Reserved | Design by  <a href="http://w3layouts.com/"> W3layouts</a></p>
 		</div>
 	</div>
-</div> -->
+</div>
 <!-- //footer-->
-
-<!--navbar-->
-
 <!-- smooth scrolling -->
-<!-- 	<script type="text/javascript">
+	<script type="text/javascript">
 		$(document).ready(function() {
 		/*
 			var defaults = {
@@ -387,8 +395,8 @@ body {margin:0;}
 		*/								
 		$().UItoTop({ easingType: 'easeOutQuart' });
 		});
-	</script> -->
-	
+	</script>
+	<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
 <!-- //smooth scrolling -->
 <!-- for bootstrap working -->
 		<script src="js/bootstrap.js"></script>
