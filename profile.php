@@ -100,7 +100,7 @@
   <a href="menu.php"><i class="fa fa-book"></i></a>
   <!-- <span class="my-cart-icon" > -->
   	<!-- </span>  -->
-  <a href="#"><i class="fa fa-credit-card"></i></a> 
+ <!--  <a href="#"><i class="fa fa-credit-card"></i></a>  -->
   <a href="#" ><i class="fa fa-shopping-cart my-cart-icon"></i></a>
  </div>
 </div>

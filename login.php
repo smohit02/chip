@@ -87,25 +87,6 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 		<style>
 body {margin:0;}
 
-.icon-bar {
-    width: 100%;
-    background-color: #555;
-    overflow: auto;
-}
-
-.icon-bar a {
-    float: left;
-    width: 20%;
-    text-align: center;
-    padding: 12px 0;
-    transition: all 0.3s ease;
-    color: white;
-    font-size: 36px;
-}
-
-.icon-bar a:hover {
-    background-color: #000;
-}
 
 .active {
     background-color: #4CAF50 !important;
@@ -117,8 +98,6 @@ body {margin:0;}
 </head>
 <body>
 
-<<<<<<< HEAD
-=======
 
 <div class="navbar navbar-fixed-bottom">
  <div class="icon-bar">
@@ -132,7 +111,7 @@ body {margin:0;}
   <a href="#" ><i class="fa fa-shopping-cart my-cart-icon"></i></a>
  </div>
 </div>
->>>>>>> 7dea68d4e70bc952b1afed71fe76b097512d0453
+
 <div class="header">
 
 		<div class="container">

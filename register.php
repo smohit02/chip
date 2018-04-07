@@ -149,9 +149,9 @@ body {margin:0;}
 =======
   <a  href="index.php"><i class="fa fa-home"></i></a> 
   <!-- <a href="#"><i class="fa fa-search"></i></a>  -->
-  <a href="profile.php"><i class="fa fa-user"></i></a> 
->>>>>>> 7dea68d4e70bc952b1afed71fe76b097512d0453
-  <a href="#"><i class="fa fa-book"></i></a>
+<!--   <a href="profile.php"><i class="fa fa-user"></i></a> 
+
+  <a href="#"><i class="fa fa-book"></i></a> -->
   <!-- <span class="my-cart-icon" > 
   	<!-- </span>  -
   <a href="#"><i class="fa fa-credit-card"></i></a> 

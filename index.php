@@ -70,7 +70,7 @@ body {margin:0;}
 
 .icon-bar a {
     float: left;
-    width: 20%;
+    width: 25%;
     text-align: center;
     padding: 12px 0;
     transition: all 0.3s ease;
