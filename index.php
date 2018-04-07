@@ -103,8 +103,8 @@ body {margin:0;}
  <div class="icon-bar">
   <a  href="#" class="active"><i class="fa fa-home"></i></a> 
   <!-- <a href="#"><i class="fa fa-search"></i></a>  -->
-  <a href="profile.html" ><i class="fa fa-user"></i></a> 
-  <a href="menu.html" ><i class="fa fa-book"></i></a>
+  <a href="profile.php" ><i class="fa fa-user"></i></a> 
+  <a href="menu.php" ><i class="fa fa-book"></i></a>
   <!-- <span class="my-cart-icon" > -->
   	<!-- </span>  -->
   <a href="#"><i class="fa fa-credit-card"></i></a> 
@@ -123,11 +123,11 @@ body {margin:0;}
 		<div class="container">
 			
 			<div class="logo">
-				<h1><a href="index.html">CHIPAY<span>SRM Shit Foods</span></a></h1>
+				<h1><a href="index.php">CHIPAY<span>SRM Shit Foods</span></a></h1>
 			</div>
 			<div>
-				<a href="login.html"><i class="fa fa-user abc" aria-hidden="true"></i>Login</a></li></right>
-				<a href="register.html"><i class="fa fa-arrow-right abc" aria-hidden="true"></i>Register</a>
+				<a href="login.php"><i class="fa fa-user abc" aria-hidden="true"></i>Login</a></li></right>
+				<a href="register.php"><i class="fa fa-arrow-right abc" aria-hidden="true"></i>Register</a>
 			</div>
 			<!-- <div class="head-t">
 				<ul class="card">
