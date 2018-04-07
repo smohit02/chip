@@ -5783,17 +5783,3 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
-.imga {
-    border-radius: 50%;
-    vertical-align: middle;
-    align-self: middle;
-    box-sizing: inherit;
-    width: 50%;
-    height: auto;
-    position:relative;
-    top:15;
-    left:25%;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding-top:10px;
-}

@@ -3168,8 +3168,7 @@ h1.t-button {
 }
 
 .carousel-inner{
-  height: 300px;
-  background-image: image/noimg.jpg
+  height: 300px  background-image: image/noimg.jpg
 }
 .abc{
   text-align: right;
@@ -3178,3 +3177,37 @@ h1.t-button {
 .pic{
   background-color: green;
 }
+
+.imga {
+    border-radius: 50%;
+    vertical-align: middle;
+    align-self: middle;
+    box-sizing: inherit;
+    width: 50%;
+    height: auto;
+    position:relative;
+    top:15;
+    left:25%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top:10px;
+}
+
+.pic1{
+  background-color: green;
+}
+
+.imga1 {
+    border-radius: 50%;
+    vertical-align: middle;
+    align-self: middle;
+    box-sizing: inherit;
+    width: 15%;
+    height: auto;
+    position:relative;
+    top:15;
+    left:25%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top:10px;
+  }
