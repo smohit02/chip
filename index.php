@@ -103,8 +103,8 @@ body {margin:0;}
  <div class="icon-bar">
   <a  href="#" class="active"><i class="fa fa-home"></i></a> 
   <!-- <a href="#"><i class="fa fa-search"></i></a>  -->
-  <a href="profile.html" ><i class="fa fa-user"></i></a> 
-  <a href="menu.html" ><i class="fa fa-book"></i></a>
+  <a href="profile.php" ><i class="fa fa-user"></i></a> 
+  <a href="menu.php" ><i class="fa fa-book"></i></a>
   <!-- <span class="my-cart-icon" > -->
   	<!-- </span>  -->
   <a href="#"><i class="fa fa-credit-card"></i></a> 
@@ -123,19 +123,19 @@ body {margin:0;}
 		<div class="container">
 			
 			<div class="logo">
-				<h1><a href="index.html">CHIPAY<span>SRM Shit Foods</span></a></h1>
+				<h1><a href="index.php">CHIPAY<span>SRM Shit Foods</span></a></h1>
 			</div>
 			<div>
-				<a href="login.html"><i class="fa fa-user abc" aria-hidden="true"></i>Login</a></li></right>
-				<a href="register.html"><i class="fa fa-arrow-right abc" aria-hidden="true"></i>Register</a>
+				<a href="login.php"><i class="fa fa-user abc" aria-hidden="true"></i>Login</a></li></right>
+				<a href="register.php"><i class="fa fa-arrow-right abc" aria-hidden="true"></i>Register</a>
 			</div>
 			<!-- <div class="head-t">
 				<ul class="card">
-					<li><a href="wishlist.html"><i class="fa fa-heart" aria-hidden="true"></i>Wishlist</a></li>
-					<li><a href="login.html"><i class="fa fa-user" aria-hidden="true"></i>Login</a></li>
-					<li><a href="register.html"><i class="fa fa-arrow-right" aria-hidden="true"></i>Register</a></li>
-					<li><a href="about.html"><i class="fa fa-file-text-o" aria-hidden="true"></i>Order History</a></li>
-					<li><a href="shipping.html"><i class="fa fa-ship" aria-hidden="true"></i>Shipping</a></li>
+					<li><a href="wishlist.php"><i class="fa fa-heart" aria-hidden="true"></i>Wishlist</a></li>
+					<li><a href="login.php"><i class="fa fa-user" aria-hidden="true"></i>Login</a></li>
+					<li><a href="register.php"><i class="fa fa-arrow-right" aria-hidden="true"></i>Register</a></li>
+					<li><a href="about.php"><i class="fa fa-file-text-o" aria-hidden="true"></i>Order History</a></li>
+					<li><a href="shipping.php"><i class="fa fa-ship" aria-hidden="true"></i>Shipping</a></li>
 				</ul>	
 			</div> -->
 			
@@ -159,7 +159,7 @@ body {margin:0;}
 					</div> 
 					<div class="navbar-collapse collapse" id="bs-megadropdown-tabs" aria-expanded="false" style="height: 0px;">
 						<ul class="nav navbar-nav ">
-							<li class=" active"><a href="index.html" class="hyper "><span>Home</span></a></li>	
+							<li class=" active"><a href="index.php" class="hyper "><span>Home</span></a></li>	
 							
 							<li class="dropdown ">
 								<a href="#" class="dropdown-toggle  hyper" data-toggle="dropdown"><span>Kitchen<b class="caret"></b></span></a>
@@ -168,10 +168,10 @@ body {margin:0;}
 										<div class="col-sm-3">
 											<ul class="multi-column-dropdown">
 			
-												<li><a href="kitchen.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Water &amp; Beverages</a></li>
-												<li><a href="kitchen.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Fruits &amp; Vegetables</a></li>
-												<li><a href="kitchen.html"> <i class="fa fa-angle-right" aria-hidden="true"></i>Staples</a></li>
-												<li><a href="kitchen.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Branded Food</a></li>
+												<li><a href="kitchen.php"><i class="fa fa-angle-right" aria-hidden="true"></i>Water &amp; Beverages</a></li>
+												<li><a href="kitchen.php"><i class="fa fa-angle-right" aria-hidden="true"></i>Fruits &amp; Vegetables</a></li>
+												<li><a href="kitchen.php"> <i class="fa fa-angle-right" aria-hidden="true"></i>Staples</a></li>
+												<li><a href="kitchen.php"><i class="fa fa-angle-right" aria-hidden="true"></i>Branded Food</a></li>
 										
 											</ul>
 										
@@ -179,11 +179,11 @@ body {margin:0;}
 										<div class="col-sm-3">
 										
 											<ul class="multi-column-dropdown">
-												<li><a href="kitchen.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Breakfast &amp; Cereal</a></li>
-												<li><a href="kitchen.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Snacks</a></li>
-												<li><a href="kitchen.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Spices</a></li>
-												<li><a href="kitchen.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Biscuit &amp; Cookie</a></li>
-												<li><a href="kitchen.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Sweets</a></li>
+												<li><a href="kitchen.php"><i class="fa fa-angle-right" aria-hidden="true"></i>Breakfast &amp; Cereal</a></li>
+												<li><a href="kitchen.php"><i class="fa fa-angle-right" aria-hidden="true"></i>Snacks</a></li>
+												<li><a href="kitchen.php"><i class="fa fa-angle-right" aria-hidden="true"></i>Spices</a></li>
+												<li><a href="kitchen.php"><i class="fa fa-angle-right" aria-hidden="true"></i>Biscuit &amp; Cookie</a></li>
+												<li><a href="kitchen.php"><i class="fa fa-angle-right" aria-hidden="true"></i>Sweets</a></li>
 										
 											</ul>
 										
@@ -191,15 +191,15 @@ body {margin:0;}
 										<div class="col-sm-3">
 										
 											<ul class="multi-column-dropdown">
-												<li><a href="kitchen.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Pickle &amp; Condiment</a></li>
-												<li><a href="kitchen.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Instant Food</a></li>
-												<li><a href="kitchen.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Dry Fruit</a></li>
-												<li><a href="kitchen.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Tea &amp; Coffee</a></li>
+												<li><a href="kitchen.php"><i class="fa fa-angle-right" aria-hidden="true"></i>Pickle &amp; Condiment</a></li>
+												<li><a href="kitchen.php"><i class="fa fa-angle-right" aria-hidden="true"></i>Instant Food</a></li>
+												<li><a href="kitchen.php"><i class="fa fa-angle-right" aria-hidden="true"></i>Dry Fruit</a></li>
+												<li><a href="kitchen.php"><i class="fa fa-angle-right" aria-hidden="true"></i>Tea &amp; Coffee</a></li>
 										
 											</ul>
 										</div>
 										<div class="col-sm-3 w3l">
-											<a href="kitchen.html"><img src="images/me.png" class="img-responsive" alt=""></a>
+											<a href="kitchen.php"><img src="images/me.png" class="img-responsive" alt=""></a>
 										</div>
 										<div class="clearfix"></div>
 									</div>	
@@ -212,10 +212,10 @@ body {margin:0;}
 									<div class="row">
 										<div class="col-sm-3">
 											<ul class="multi-column-dropdown">
-												<li><a href="care.html"><i class="fa fa-angle-right" aria-hidden="true"></i> Ayurvedic </a></li>
-												<li><a href="care.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Baby Care</a></li>
-												<li><a href="care.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Cosmetics</a></li>
-												<li><a href="care.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Deo &amp; Purfumes</a></li>
+												<li><a href="care.php"><i class="fa fa-angle-right" aria-hidden="true"></i> Ayurvedic </a></li>
+												<li><a href="care.php"><i class="fa fa-angle-right" aria-hidden="true"></i>Baby Care</a></li>
+												<li><a href="care.php"><i class="fa fa-angle-right" aria-hidden="true"></i>Cosmetics</a></li>
+												<li><a href="care.php"><i class="fa fa-angle-right" aria-hidden="true"></i>Deo &amp; Purfumes</a></li>
 										
 											</ul>
 											
@@ -223,10 +223,10 @@ body {margin:0;}
 										<div class="col-sm-3">
 											
 											<ul class="multi-column-dropdown">
-												<li><a href="care.html"> <i class="fa fa-angle-right" aria-hidden="true"></i>Hair Care </a></li>
-												<li><a href="care.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Oral Care</a></li>
-												<li><a href="care.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Personal Hygiene</a></li>
-												<li><a href="care.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Skin care</a></li>
+												<li><a href="care.php"> <i class="fa fa-angle-right" aria-hidden="true"></i>Hair Care </a></li>
+												<li><a href="care.php"><i class="fa fa-angle-right" aria-hidden="true"></i>Oral Care</a></li>
+												<li><a href="care.php"><i class="fa fa-angle-right" aria-hidden="true"></i>Personal Hygiene</a></li>
+												<li><a href="care.php"><i class="fa fa-angle-right" aria-hidden="true"></i>Skin care</a></li>
 										
 											</ul>
 											
@@ -234,15 +234,15 @@ body {margin:0;}
 										<div class="col-sm-3">
 											
 											<ul class="multi-column-dropdown">
-												<li><a href="care.html"><i class="fa fa-angle-right" aria-hidden="true"></i> Fashion Accessories </a></li>
-												<li><a href="care.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Grooming Tools</a></li>
-												<li><a href="care.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Shaving Need</a></li>
-												<li><a href="care.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Sanitary Needs</a></li>
+												<li><a href="care.php"><i class="fa fa-angle-right" aria-hidden="true"></i> Fashion Accessories </a></li>
+												<li><a href="care.php"><i class="fa fa-angle-right" aria-hidden="true"></i>Grooming Tools</a></li>
+												<li><a href="care.php"><i class="fa fa-angle-right" aria-hidden="true"></i>Shaving Need</a></li>
+												<li><a href="care.php"><i class="fa fa-angle-right" aria-hidden="true"></i>Sanitary Needs</a></li>
 										
 											</ul>
 										</div>
 										<div class="col-sm-3 w3l">
-											<a href="care.html"><img src="images/me1.png" class="img-responsive" alt=""></a>
+											<a href="care.php"><img src="images/me1.png" class="img-responsive" alt=""></a>
 										</div>
 										<div class="clearfix"></div>
 									</div>	
@@ -254,10 +254,10 @@ body {margin:0;}
 									<div class="row">
 										<div class="col-sm-3">
 											<ul class="multi-column-dropdown">
-												<li><a href="hold.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Cleaning Accessories</a></li>
-												<li><a href="hold.html"><i class="fa fa-angle-right" aria-hidden="true"></i>CookWear</a></li>
-												<li><a href="hold.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Detergents</a></li>
-												<li><a href="hold.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Gardening Needs</a></li>
+												<li><a href="hold.php"><i class="fa fa-angle-right" aria-hidden="true"></i>Cleaning Accessories</a></li>
+												<li><a href="hold.php"><i class="fa fa-angle-right" aria-hidden="true"></i>CookWear</a></li>
+												<li><a href="hold.php"><i class="fa fa-angle-right" aria-hidden="true"></i>Detergents</a></li>
+												<li><a href="hold.php"><i class="fa fa-angle-right" aria-hidden="true"></i>Gardening Needs</a></li>
 										
 											</ul>
 										
@@ -265,10 +265,10 @@ body {margin:0;}
 										<div class="col-sm-3">
 											
 											<ul class="multi-column-dropdown">
-												<li><a href="hold.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Kitchen &amp; Dining</a></li>
-												<li><a href="hold.html"><i class="fa fa-angle-right" aria-hidden="true"></i>KitchenWear</a></li>
-												<li><a href="hold.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Pet Care</a></li>
-												<li><a href="hold.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Plastic Wear</a></li>
+												<li><a href="hold.php"><i class="fa fa-angle-right" aria-hidden="true"></i>Kitchen &amp; Dining</a></li>
+												<li><a href="hold.php"><i class="fa fa-angle-right" aria-hidden="true"></i>KitchenWear</a></li>
+												<li><a href="hold.php"><i class="fa fa-angle-right" aria-hidden="true"></i>Pet Care</a></li>
+												<li><a href="hold.php"><i class="fa fa-angle-right" aria-hidden="true"></i>Plastic Wear</a></li>
 										
 											</ul>
 										
@@ -276,23 +276,23 @@ body {margin:0;}
 										<div class="col-sm-3">
 										
 											<ul class="multi-column-dropdown">
-												<li><a href="hold.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Pooja Needs</a></li>
-												<li><a href="hold.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Serveware</a></li>
-												<li><a href="hold.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Safety Accessories</a></li>
-												<li><a href="hold.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Festive Decoratives </a></li>
+												<li><a href="hold.php"><i class="fa fa-angle-right" aria-hidden="true"></i>Pooja Needs</a></li>
+												<li><a href="hold.php"><i class="fa fa-angle-right" aria-hidden="true"></i>Serveware</a></li>
+												<li><a href="hold.php"><i class="fa fa-angle-right" aria-hidden="true"></i>Safety Accessories</a></li>
+												<li><a href="hold.php"><i class="fa fa-angle-right" aria-hidden="true"></i>Festive Decoratives </a></li>
 										
 											</ul>
 										</div>
 										<div class="col-sm-3 w3l">
-											<a href="hold.html"><img src="images/me2.png" class="img-responsive" alt=""></a>
+											<a href="hold.php"><img src="images/me2.png" class="img-responsive" alt=""></a>
 										</div>
 										<div class="clearfix"></div>
 									</div>	
 								</ul>
 							</li>
 							
-							<li><a href="codes.html" class="hyper"> <span>Codes</span></a></li>
-							<li><a href="contact.html" class="hyper"><span>Contact Us</span></a></li>
+							<li><a href="codes.php" class="hyper"> <span>Codes</span></a></li>
+							<li><a href="contact.php" class="hyper"><span>Contact Us</span></a></li>
 						</ul>
 					</div>
 					</nav>
@@ -747,15 +747,15 @@ body {margin:0;}
       </ol>
       <div class="carousel-inner" role="listbox">
         <div class="item">
-         <a href="kitchen.html"> <img class="first-slide" src="images/noimg.jpg" alt="First slide"></a>
+         <a href="kitchen.php"> <img class="first-slide" src="images/noimg.jpg" alt="First slide"></a>
        
         </div>
         <div class="item">
-         <a href="care.html"> <img class="second-slide " src="images/noimg.jpg" alt="Second slide"></a>
+         <a href="care.php"> <img class="second-slide " src="images/noimg.jpg" alt="Second slide"></a>
          
         </div>
         <div class="item active">
-          <a href="hold.html"><img class="third-slide " src="images/noimg.jpg" alt="Third slide"></a>
+          <a href="hold.php"><img class="third-slide " src="images/noimg.jpg" alt="Third slide"></a>
           
         </div>
       </div>

@@ -94,10 +94,10 @@
 
 <div class="navbar navbar-fixed-bottom">
  <div class="icon-bar">
-  <a  href="index.html"><i class="fa fa-home"></i></a> 
+  <a  href="index.php"><i class="fa fa-home"></i></a> 
   <!-- <a href="#"><i class="fa fa-search"></i></a>  -->
   <a href="#" class="active"><i class="fa fa-user"></i></a> 
-  <a href="menu.html"><i class="fa fa-book"></i></a>
+  <a href="menu.php"><i class="fa fa-book"></i></a>
   <!-- <span class="my-cart-icon" > -->
   	<!-- </span>  -->
   <a href="#"><i class="fa fa-credit-card"></i></a> 
@@ -112,7 +112,7 @@
 <div class="header">
 	<div class="container">		
 		<div class="logo">
-			<h1 ><a href="index.html">CHIPAY<span>SRM Shit 	Foods</span></a></h1>
+			<h1 ><a href="index.php">CHIPAY<span>SRM Shit 	Foods</span></a></h1>
 		</div>
 	</div>
 </div>
