@@ -29,6 +29,11 @@ switch($_GET["action"]) {
 <HTML>
 <HEAD>
 <TITLE>Simple PHP Shopping Cart</TITLE>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta property="og:title" content="Vide">
+<meta name="keywords" content="Big store Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design">
 <!-- <link href="style.css" type="text/css" rel="stylesheet" /> -->
 <script type="application/x-javascript"> 
 	addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
@@ -199,10 +204,10 @@ if(!empty($_SESSION["cart_item"])){
 				<div class=" pro-1 col-md-3 " >
 					<div class="col-m">
 						<form method="post" action="index.php?action=add&code=<?php echo $product_array[$key]["code"]; ?>">
-						<div class="product-image  offer-img"><img src="<?php echo $product_array[$key]["image"]; ?>" class="img-responsive"></div>
+						<div class="product-image  offer-img"><img src="<?php echo $product_array[$key]["image"]; ?>" class="img-responsive" alt=""></div>
 						<div class="mid-1"><div class="women"><?php echo $product_array[$key]["name"]; ?></div>
 						<div class="add add-2"><?php echo "Rs".$product_array[$key]["price"]; ?></div>
-						<div class= "mid-2 add"><input type="text" name="quantity" class="box" value="1" size="2" /><input type="submit"  value="Add to cart" class="btnAddAction btn btn-danger my-cart-btn my-cart-b" /></div>
+						<div class= "mid-2 add"><input type="text" name="quantity" class="box" value="1" size="2" /><input type="submit"  value="Add to cart " class="btnAddAction btn btn-danger my-cart-btn my-cart-b" /></div>
 						</div>
 						</form>
 					</div>
