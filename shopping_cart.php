@@ -201,16 +201,14 @@ body {margin:0;}
 			
 		</div>
 	</div>
-</div>
 
-
-<div class="">
-	<div class="cart_footer_link">
-	<div>Total Price: <span id="total_price"><?php echo "Rs". number_format($total_price,2); ?></span></div>
+<div class="cart_footer_link col-md-12">
+<center>	Total Price: <span id="total_price"><?php echo "Rs". number_format($total_price,2); ?></span>
+	<section>
 	<button class="btnAddAction btn btn-danger my-cart-btn my-cart-b">
-	<a href="shopping_cart.php?action=empty">Clear Cart</a></button>
+	<a href="shopping_cart.php?action=empty">Clear Cart</a></button></section>
 	<button class="btnAddAction btn btn-danger my-cart-btn my-cart-b"><a href="index.php" title="Cart">Continue Shopping</a></button>
-	</div>
+</center>	
 </div>
 
 
@@ -252,6 +250,15 @@ function saveCart(obj) {
     .container{
     	bottom: 20px;
     }
+    .cart_footer_link{
+    padding-bottom: 20%;
+	z-index : 9999;	
+	}
+	#shopping-cart{
+		overflow : scroll;
+		text-align: center;
+
+	}
 
 </style>
 </BODY>
